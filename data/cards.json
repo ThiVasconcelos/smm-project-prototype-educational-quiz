@@ -42,6 +42,11 @@
             {
                 "type": "text",
                 "html": "<p>A taxa de quadros (FPS) influencia diretamente a fluidez: 24 FPS no cinema, 25 FPS no padrão PAL e 30 FPS no padrão NTSC.</p>"
+            },
+            {
+                "type": "image",
+                "src": "assets/high_quality_image_zoom.png",
+                "alt": "Diagrama ilustrando varredura entrelaçada"
             }
         ]
     },
@@ -147,7 +152,7 @@
             {
                 "type": "image",
                 "src": "img/varredura.png",
-                "alt": "Diagrama ilustrando varredura entrelaçada (baseado no PDF)"
+                "alt": "Diagrama ilustrando varredura entrelaçada"
             },
             {
                 "type": "text",
@@ -169,11 +174,6 @@
             {
                 "type": "text",
                 "html": "<p>Sistemas de edição híbrida combinavam gravadores analógicos e computadores, usando um barramento de controle de vídeo para sincronizar equipamentos. </p>"
-            },
-            {
-                "type": "image",
-                "src": "img/edicao-hibrida.png",
-                "alt": "Diagrama de edição híbrida de vídeo (baseado no PDF)"
             },
             {
                 "type": "text",
@@ -417,6 +417,300 @@
             {
                 "type": "text",
                 "html": "<p>Outra aplicação é a WebTV, que permite acessar conteúdo da Web por meio de aparelhos especializados conectados à TV. Câmeras e fitas digitais domésticas também incorporam tecnologia de vídeo digital, facilitando a gravação, edição e compartilhamento de material em casa.</p>"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Supervarredura e Borda de Segurança",
+        "excerpt": "Por que a imagem ultrapassa os limites da tela e qual a área segura para elementos importantes.",
+        "tags": [
+            {
+                "label": "Representação",
+                "color": "#22C55E"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>A supervarredura garante que não sobrem bordas negras na tela, fazendo com que a imagem ultrapasse um pouco os limites visíveis do monitor. Isso compensa variações de ajuste entre diferentes aparelhos de TV.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>A borda de segurança é a faixa periférica da imagem que pode ficar encoberta pela moldura do televisor. Textos, legendas e elementos essenciais devem ser mantidos fora dessa região para não desaparecerem para parte do público.</p>"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Aspectos Quantitativos do Vídeo",
+        "excerpt": "Quantos pixels e bytes existem em um quadro e em um segundo de vídeo.",
+        "tags": [
+            {
+                "label": "Representação",
+                "color": "#22C55E"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Em um exemplo típico, um quadro de vídeo pode conter cerca de 240.000 pixels, o que corresponde a aproximadamente 720.000 bytes de dados.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Considerando 30 quadros por segundo, um único segundo de vídeo sem compressão pode chegar a aproximadamente 21.600.000 bytes, mostrando por que a compressão é tão importante.</p>"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Dispositivos Matriciais",
+        "excerpt": "Como sensores e conversores A/D formam a imagem digital.",
+        "tags": [
+            {
+                "label": "Aquisição",
+                "color": "#F97316"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Dispositivos matriciais capturam a cena em uma grade de elementos sensíveis à luz. Cada célula da matriz mede a intensidade luminosa em uma pequena região da imagem.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>O sinal analógico gerado pelos sensores é enviado a um conversor analógico-digital (A/D), que transforma esses valores em números, formando a imagem digital usada pelo sistema de vídeo.</p>"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Câmera de Luminância e Câmera de Crominância (1 CCD)",
+        "excerpt": "Separação entre captura de brilho e de cor em câmeras com um único sensor.",
+        "tags": [
+            {
+                "label": "Aquisição",
+                "color": "#F97316"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Uma câmera de luminância é responsável por registrar apenas a informação de brilho da cena, produzindo um sinal em preto e branco equivalente à luminância.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Já em uma câmera de crominância com um único CCD, filtros de cor são usados sobre o sensor para separar os componentes de cor (como R, G e B), permitindo reconstruir a informação cromática a partir de um único dispositivo.</p>"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Câmeras com 3 CCDs e Tipos de Saída de Vídeo",
+        "excerpt": "Como câmeras profissionais separam RGB e geram sinais composto, S-Video e RGB.",
+        "tags": [
+            {
+                "label": "Aquisição",
+                "color": "#F97316"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Em câmeras de alta qualidade, a luz é dividida em três caminhos, cada um direcionado a um CCD dedicado para vermelho, verde e azul. Isso aumenta a definição e a fidelidade de cor.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>A partir desses três sinais, a câmera pode fornecer diferentes tipos de saída: sinal RGB separado, sinal S-Video (separando luminância e crominância) ou sinal de vídeo composto colorido, que reúne toda a informação em um único cabo.</p>"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Video for Windows e Formato AVI em Detalhe",
+        "excerpt": "Por que o AVI foi usado em vídeos de baixa resolução no Windows.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>A arquitetura Video for Windows, da Microsoft, usa o formato AVI (Audio-Video Interleaved), no qual áudio e vídeo são armazenados de forma entrelaçada em um único arquivo.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>O AVI foi projetado para vídeos de baixa resolução e baixa taxa de quadros, típicos da época dos PCs dos anos 90, e podia utilizar diversos codecs, como RLE, Video 1, Cinepak e Indeo, escolhidos conforme a necessidade de qualidade ou desempenho.</p>"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Arquitetura QuickTime em Detalhe",
+        "excerpt": "Formato multimídia independente de plataforma e dominante em CD-ROMs.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>O QuickTime, criado pela Apple, é uma arquitetura multimídia que também foi portada para Windows. Ele suporta diversos codecs, incluindo JPEG e MPEG-1, permitindo armazenar vídeo, áudio e outros tipos de mídia.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Por ser independente de plataforma e flexível, o QuickTime se tornou muito usado em títulos distribuídos em CD-ROM e, em versões mais recentes, passou a suportar fluxos contínuos, como streaming de áudio e vídeo.</p>"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Compressão sem Perdas e com Perdas",
+        "excerpt": "Diferença entre manter todos os dados ou descartar informação visual.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Em compressão sem perdas, os dados podem ser recuperados exatamente como eram, sem alteração na imagem. Esse tipo de técnica é útil quando qualquer modificação é indesejável.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Na compressão com perdas (lossy), parte da informação visual é descartada para reduzir mais o tamanho do arquivo. Embora haja degradação, ela costuma ser aceitável para aplicações como vídeo, especialmente quando bem configurada.</p>"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Trade-offs na Compressão de Vídeo",
+        "excerpt": "Equilíbrio entre taxa de compressão, qualidade e tempo de processamento.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Algoritmos de compressão com perdas permitem ajustar um compromisso entre três fatores principais: quanto comprimir, quanta qualidade perder e quanto tempo gastar para comprimir e descomprimir.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Taxas de compressão mais altas reduzem o tamanho do arquivo, mas exigem mais processamento e podem introduzir artefatos visuais mais perceptíveis, especialmente em gerações sucessivas de recodificação.</p>"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Compressão Interquadros com Interpolação",
+        "excerpt": "Uso de quadros-chave e quadros previstos para reduzir dados.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Na compressão interquadros, o codec aproveita a coerência temporal entre quadros consecutivos. Alguns quadros são codificados de forma completa (quadros-chave), enquanto outros são previstos com base neles.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Os quadros intermediários podem ser obtidos por interpolação e predição de movimento, armazenando apenas diferenças em relação aos quadros de referência. Isso reduz significativamente a quantidade de dados necessária para representar o vídeo.</p>"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Blu-ray: Regiões de Reprodução",
+        "excerpt": "Como o mundo é dividido em regiões A, B e C para discos Blu-ray.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Os discos Blu-ray utilizam um sistema de regiões de reprodução que divide o mundo em três grandes áreas: Região A (Américas e parte da Ásia), Região B (Europa, Oriente Médio, África e Oceania) e Região C (China, Rússia e parte da Ásia meridional e insular).</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Esse sistema de regiões é diferente daquele usado em DVDs e restringe a reprodução de alguns títulos a aparelhos compatíveis com a região para a qual o disco foi codificado.</p>"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Edição Digital de Vídeo e Listas de Edição",
+        "excerpt": "Como editores digitais e filtros de vídeo são usados no fluxo profissional.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Na edição digital de vídeo, todo o material é manipulado dentro do computador, permitindo cortes, transições e efeitos sem a degradação típica da edição em fita analógica.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>É possível gerar listas de edição (EDL) para reproduzir o mesmo corte em sistemas híbridos e aplicar filtros digitais, como correção de cor, ajuste de brilho e remoção de ruído, com grande controle sobre o resultado final.</p>"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Limitações e Desafios da HDTV",
+        "excerpt": "Problemas de largura de banda e custo em sistemas de alta definição.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>A HDTV busca superar limitações da TV convencional, oferecendo maior resolução e formato widescreen, mas exige uma faixa de passagem de sinal bem maior do que a televisão analógica tradicional.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Além da largura de banda necessária para transmitir imagens em alta definição, o custo dos receptores e equipamentos compatíveis é um fator que pode atrasar a adoção plena desse padrão em alguns cenários.</p>"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "title": "Teleconferência e Videoconferência",
+        "excerpt": "Diferença entre comunicação remota geral e a modalidade com vídeo.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Teleconferência é um sistema de comunicação remota que permite a interação simultânea entre mais de dois participantes, usando meios como telefone, redes de dados ou enlaces dedicados.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Videoconferência é uma forma específica de teleconferência que inclui imagens de vídeo dos participantes. Ela exige alta compressão de dados e transmissão em tempo real, com taxas típicas em torno de 384 Kbps, embora outras taxas como 128, 256 ou 512 Kbps também sejam utilizadas.</p>"
             }
         ]
     }
