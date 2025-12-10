@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   /* -------------------------
-   cards-> posts from posts.json
+   cards-> posts from cards.json
   --------------------------*/
   let posts = [];
 
@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let questions = [];
   let current = 0;
   let score = 0;
-  let stats = {}; // { categoria: { hits, miss, color } }
+  let stats = {}; // { category: { hits, miss, color } }
 
   const quizContainer = document.getElementById("quizContainer");
   const quizStatus = document.getElementById("quizStatus");
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   function finishQuiz() {
 
-    if (score > 8) {
+    if (score > 7) {
       launchConfetti();
       quizContainer.innerHTML = `
       <h3>Resultado Final</h3>

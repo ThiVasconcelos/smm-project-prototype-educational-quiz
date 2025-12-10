@@ -42,7 +42,7 @@ nav {
   text-decoration: none;
   color: #808080;
   font-size: 22px;
-  padding: 5px 12px;
+  padding: 8px 12px;
   border-radius: 8px;
 }
 
@@ -69,7 +69,7 @@ nav {
 
 .nav-links a[data-target="quiz"] {
     font-size: 1.2em;
-    padding: 10px 14px;
+    padding: 10px 12px;
     color: #00E5FF;
     font-weight: 700;
     border-radius: 6px;
@@ -342,4 +342,56 @@ main {
   .overlay-content {
     margin: 0 8px;
   }
+}
+
+/* animation pointers 13fps 10x slower and 24fps and 60 fps */
+.pointers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pointer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 60px;
+}
+
+.pointer {
+    width: 4px;
+    height: 50px;
+    background: rgb(244, 244, 244);
+    margin: 10px auto;
+    transform-origin: bottom center;
+}
+
+.pointer15 {
+    animation: rotate24 1s steps(15) infinite;
+}
+
+@keyframes rotate24 {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+.pointer60 {
+    animation: rotate60 1s steps(60) infinite;
+}
+
+@keyframes rotate60 {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+.pointer5 {
+    animation: rotate13 1s steps(5) infinite;
+}
+
+@keyframes rotate13 {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
 }

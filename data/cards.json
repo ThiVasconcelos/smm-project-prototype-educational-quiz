@@ -61,11 +61,6 @@
                 "html": "<p>O processo de aquisição transforma imagens reais em vídeo digital através de sensores e conversores A/D. A maior parte das câmeras utiliza sensores CCD para capturar luz e convertê-la em sinais digitais. </p>"
             },
             {
-                "type": "image",
-                "src": "img/ccd-exemplo.png",
-                "alt": "Exemplo de câmera CCD"
-            },
-            {
                 "type": "text",
                 "html": "<p>Existem câmeras de um único CCD, mais simples e usadas em aplicações domésticas, e câmeras profissionais com 3 CCDs que capturam separadamente as componentes R, G e B, garantindo maior definição. </p>"
             }
@@ -224,7 +219,11 @@
             },
             {
                 "type": "text",
-                "html": "<p>Exemplos incluem: 18 FPS (cinema mudo), 24 FPS (cinema sonoro), 25 FPS (PAL) e 30 FPS (NTSC). </p>"
+                "html": "<div class=\"pointers-grid\"><div class=\"pointer-item\"><p>5 FPS</p><div class=\"pointer pointer5\"></div></div><div class=\"pointer-item\"><p>15 FPS</p><div class=\"pointer pointer15\"></div></div><div class=\"pointer-item\"><p>60 FPS</p><div class=\"pointer pointer60\"></div></div></div>"
+            },
+            {
+                "type": "text",
+                "html": "<p>\n\n\n\nExemplos incluem: 18 FPS (cinema mudo), 24 FPS (cinema sonoro), 25 FPS (PAL) e 30 FPS (NTSC). </p>"
             }
         ]
     },
