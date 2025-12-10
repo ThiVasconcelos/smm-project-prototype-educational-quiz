@@ -37,16 +37,16 @@
             },
             {
                 "type": "text",
-                "html": "<p>Modelos de cor como RGB são utilizados para representar as intensidades de vermelho, verde e azul. Uma imagem de 24 bits, por exemplo, permite representar mais de 16 milhões de cores.</p>"
-            },
-            {
-                "type": "text",
-                "html": "<p>A taxa de quadros (FPS) influencia diretamente a fluidez: 24 FPS no cinema, 25 FPS no padrão PAL e 30 FPS no padrão NTSC.</p>"
+                "html": "<p>Modelos de cor como RGB são utilizados para representar as intensidades de vermelho, verde e azul. Uma imagem de 24 bits, por exemplo, permite representar mais de 16 milhões de cores. Podemos observar na imagem abaixo: Uma captura realizada com um Samsung S23 em ISO 1250, utilizando lente de 23 mm, com resolução de 8160×4592 (aprox. 37 MP e arquivo de 8,17 MB). A imagem apresenta um zoom extremo em uma foto de altíssima resolução, aproximando-se o suficiente para revelar claramente a estrutura dos pixels</p>"
             },
             {
                 "type": "image",
                 "src": "assets/high_quality_image_zoom.png",
-                "alt": "Diagrama ilustrando varredura entrelaçada"
+                "alt": "Um zoom in extremo em uma foto de alta resolução, chegando ao ponto de mostrar claramente os quadrados de cor (pixels)."
+            },
+            {
+                "type": "text",
+                "html": "<p>A taxa de quadros (FPS) influencia diretamente a fluidez: 24 FPS no cinema, 25 FPS no padrão PAL e 30 FPS no padrão NTSC.</p>"
             }
         ]
     },
