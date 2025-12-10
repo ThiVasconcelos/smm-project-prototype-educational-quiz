@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Multimídia Study SPA</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="logo">CARDS DE ESTUDO - SMM</div>
+			<div class="nav-links">
+				<a href="#cards" data-target="cards" class="active">Cards</a>
+				<a href="#quiz" data-target="quiz">Quiz</a>
+			</div>
+		</nav>
+
+		<main>
+			<!-- CARDS -->
+			<section id="cards" class="page active">
+				<h2>Conteúdos para Estudo</h2>
+				<p class="subtitle">
+					Clique em um card para abrir o card por completo. Clique nas setas
+					para navegar entre os cards.
+				</p>
+				<div id="postsGrid" class="posts-grid"></div>
+			</section>
+
+			<!-- QUIZ -->
+			<section id="quiz" class="page">
+				<h2>Quiz Interativo</h2>
+				<p class="subtitle">
+					Responda às questões para testar seu conhecimento..
+				</p>
+				<div id="quizContainer">
+					<p id="quizStatus">Carregando quiz...</p>
+				</div>
+				<button id="startBtn" style="display: none">Iniciar Quiz</button>
+				<button id="nextBtn" style="display: none">Próxima</button>
+				<button id="restartBtn" style="display: none">Reiniciar Quiz</button>
+			</section>
+		</main>
+
+		<!-- OVERLAY CARDS -->
+		<div id="postOverlay" class="overlay">
+			<div class="overlay-content">
+				<button
+					class="overlay-close"
+					id="closeOverlayBtn"
+					aria-label="Fechar post">
+					&times;
+				</button>
+				<h3 class="overlay-title" id="overlayTitle"></h3>
+				<div id="overlayTags" class="post-tags overlay-tags"></div>
+				<div class="overlay-body" id="overlayBody"></div>
+				<div class="overlay-nav">
+					<span id="overlayCounter"></span>
+					<div class="overlay-nav-buttons">
+						<button id="prevPostBtn">←</button>
+						<button id="nextPostBtn">→</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+	</body>
+</html>

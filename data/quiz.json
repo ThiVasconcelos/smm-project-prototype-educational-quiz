@@ -1,0 +1,352 @@
+[
+    {
+        "text": "Qual foi uma das principais razões para a transição do vídeo analógico para o digital?",
+        "options": [
+            "Reduzir a resolução dos vídeos",
+            "Melhorar eficiência e qualidade de áudio e vídeo",
+            "Facilitar a criação de vídeos preto e branco",
+            "Eliminar completamente o uso de sensores"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Fundamentos",
+        "categoryColor": "#3B82F6"
+    },
+    {
+        "text": "Qual vantagem pertence ao vídeo digital?",
+        "options": [
+            "Perda de qualidade a cada cópia",
+            "Edição linear obrigatória",
+            "Edição não-linear mais eficiente",
+            "Uso exclusivo para transmissões ao vivo"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Fundamentos",
+        "categoryColor": "#3B82F6"
+    },
+    {
+        "text": "O vídeo digital permite distribuição mais fácil porque:",
+        "options": [
+            "Só pode ser armazenado em DVDs",
+            "O sinal analógico permanece intacto",
+            "Os arquivos podem ser copiados sem perda",
+            "Exige conversão manual para cada mídia"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Fundamentos",
+        "categoryColor": "#3B82F6"
+    },
+    {
+        "text": "O vídeo digital é comparado ao CD em relação ao vinil porque:",
+        "options": [
+            "A qualidade é menor",
+            "Há evolução tecnológica semelhante",
+            "Ambos são formatos analógicos",
+            "Ambos requerem agulhas para leitura"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Fundamentos",
+        "categoryColor": "#3B82F6"
+    },
+    {
+        "text": "Qual dos itens abaixo NÃO é uma vantagem citada no vídeo digital?",
+        "options": [
+            "Processamento mais eficiente",
+            "Distribuição facilitada",
+            "Perda de qualidade a cada cópia",
+            "Áudio aprimorado"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Fundamentos",
+        "categoryColor": "#3B82F6"
+    },
+    {
+        "text": "Do que é composto cada quadro de um vídeo digital?",
+        "options": [
+            "Ondas eletromagnéticas",
+            "Matriz de pixels",
+            "Arquivos de áudio anexados",
+            "Elementos vetoriais"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Representação",
+        "categoryColor": "#22C55E"
+    },
+    {
+        "text": "O modelo RGB representa:",
+        "options": [
+            "Cores em preto, branco e cinza",
+            "Intensidades de vermelho, verde e azul",
+            "Somente tonalidades frias",
+            "Cores primárias subtrativas"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Representação",
+        "categoryColor": "#22C55E"
+    },
+    {
+        "text": "Uma imagem de 24 bits permite representar:",
+        "options": [
+            "256 cores",
+            "65 mil cores",
+            "16 milhões de cores",
+            "4 bilhões de cores"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Representação",
+        "categoryColor": "#22C55E"
+    },
+    {
+        "text": "Qual taxa de quadros é usada no cinema sonoro?",
+        "options": [
+            "18 FPS",
+            "24 FPS",
+            "25 FPS",
+            "30 FPS"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Representação",
+        "categoryColor": "#22C55E"
+    },
+    {
+        "text": "A varredura entrelaçada divide cada quadro em:",
+        "options": [
+            "Dois campos exibidos alternadamente",
+            "Três quadros simultâneos",
+            "Um único campo contínuo",
+            "Sequências randômicas de varredura"
+        ],
+        "correctIndex": 0,
+        "mediaType": "image",
+        "mediaSrc": "img/varredura.png",
+        "category": "Representação",
+        "categoryColor": "#22C55E"
+    },
+    {
+        "text": "O que transforma uma imagem real em vídeo digital?",
+        "options": [
+            "Conversores D/A",
+            "Filtros ópticos apenas",
+            "Sensores CCD e conversores A/D",
+            "Lentes mecânicas sem sensores"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aquisição",
+        "categoryColor": "#F97316"
+    },
+    {
+        "text": "Câmeras profissionais utilizam 3 CCDs para:",
+        "options": [
+            "Capturar apenas sombra",
+            "Separar R, G e B e obter maior definição",
+            "Aumentar o ruído da imagem",
+            "Reduzir a precisão das cores"
+        ],
+        "correctIndex": 1,
+        "mediaType": "image",
+        "mediaSrc": "img/ccd-exemplo.png",
+        "category": "Aquisição",
+        "categoryColor": "#F97316"
+    },
+    {
+        "text": "Câmeras de um único CCD são normalmente usadas em:",
+        "options": [
+            "Estúdios de cinema",
+            "Aplicações domésticas",
+            "Transmissões de TV de grande porte",
+            "Sistemas de satélite"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aquisição",
+        "categoryColor": "#F97316"
+    },
+    {
+        "text": "O sensor CCD captura:",
+        "options": [
+            "Som ambiente",
+            "Luz convertida em sinal digital",
+            "Som digital e analógico",
+            "Apenas luz vermelha"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aquisição",
+        "categoryColor": "#F97316"
+    },
+    {
+        "text": "O processo de aquisição envolve principalmente:",
+        "options": [
+            "Captar áudio digital",
+            "Converter luz em sinal digital",
+            "Gerar arquivos AVI automaticamente",
+            "Criar varreduras por linhas"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aquisição",
+        "categoryColor": "#F97316"
+    },
+    {
+        "text": "Um segundo de vídeo sem compressão pode ocupar:",
+        "options": [
+            "Mais de 30 MB",
+            "Menos de 1 MB",
+            "Exatos 5 MB",
+            "100 KB"
+        ],
+        "correctIndex": 0,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Compressão e Formatos",
+        "categoryColor": "#EAB308"
+    },
+    {
+        "text": "Qual técnica o MPEG usa?",
+        "options": [
+            "Apenas compressão intraquadros",
+            "Compressão interquadros",
+            "Nenhuma compressão",
+            "Somente varredura analógica"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Compressão e Formatos",
+        "categoryColor": "#EAB308"
+    },
+    {
+        "text": "O formato DV é amplamente usado em:",
+        "options": [
+            "Câmeras digitais profissionais",
+            "WebTV",
+            "Sistema PAL-M",
+            "Microfones analógicos"
+        ],
+        "correctIndex": 0,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Compressão e Formatos",
+        "categoryColor": "#EAB308"
+    },
+    {
+        "text": "O formato AVI armazena:",
+        "options": [
+            "Somente áudio",
+            "Somente vídeo",
+            "Áudio e vídeo entrelaçados",
+            "Vídeo sem compressão obrigatória"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Compressão e Formatos",
+        "categoryColor": "#EAB308"
+    },
+    {
+        "text": "O Blu-ray suporta:",
+        "options": [
+            "Somente MPEG-1",
+            "Apenas vídeos sem áudio",
+            "Codecs como MPEG-2, H.264 e VC-1",
+            "Somente vídeos de baixa resolução"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Compressão e Formatos",
+        "categoryColor": "#EAB308"
+    },
+    {
+        "text": "Em quais áreas o vídeo digital está presente?",
+        "options": [
+            "Apenas cinema",
+            "Multimídia, videoconferência e TV digital",
+            "Somente em DVDs",
+            "Apenas em transmissões analógicas"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aplicações e Sistemas",
+        "categoryColor": "#A855F7"
+    },
+    {
+        "text": "O NTSC originalmente operava com:",
+        "options": [
+            "Aproximadamente 30 FPS (29.97) FPS",
+            "28 FPS",
+            "30 FPS",
+            "60 FPS"
+        ],
+        "correctIndex": 0,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aplicações e Sistemas",
+        "categoryColor": "#A855F7"
+    },
+    {
+        "text": "O que caracteriza a edição analógica?",
+        "options": [
+            "Edição não-linear em computadores",
+            "Geração sucessiva de cópias sem perda",
+            "Combinação de trechos gravados em fita",
+            "Compressão digital em tempo real"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aplicações e Sistemas",
+        "categoryColor": "#A855F7"
+    },
+    {
+        "text": "O HDTV possui:",
+        "options": [
+            "Baixa resolução",
+            "Formato quadrado 4:3",
+            "Formato widescreen 16:9",
+            "Somente transmissões analógicas"
+        ],
+        "correctIndex": 2,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aplicações e Sistemas",
+        "categoryColor": "#A855F7"
+    },
+    {
+        "text": "A WebTV permite:",
+        "options": [
+            "Apenas assistir TV aberta",
+            "Acesso a conteúdo da Web na TV",
+            "Somente reprodução de DVDs",
+            "Receber apenas sinal analógico"
+        ],
+        "correctIndex": 1,
+        "mediaType": null,
+        "mediaSrc": "",
+        "category": "Aplicações e Sistemas",
+        "categoryColor": "#A855F7"
+    }
+]

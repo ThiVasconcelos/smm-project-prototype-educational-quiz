@@ -1,0 +1,424 @@
+[
+    {
+        "id": 1,
+        "title": "Introdução ao Vídeo Digital",
+        "excerpt": "Por que o vídeo digital se tornou padrão e como ele transformou várias áreas.",
+        "tags": [
+            {
+                "label": "Fundamentos",
+                "color": "#3B82F6"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>O vídeo digital surgiu como uma evolução natural da migração das mídias analógicas para o digital, assim como aconteceu com o vinil e o CD. Essa mudança tornou processos mais eficientes e elevou a qualidade visual e sonora.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Entre as principais vantagens estão: ausência de perda na duplicação, edição não-linear mais ágil, melhor processamento de imagens, áudio aprimorado e distribuição facilitada.</p>"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Como o Vídeo Digital é Representado",
+        "excerpt": "Pixels, quadros, resolução, cores e taxas de quadros.",
+        "tags": [
+            {
+                "label": "Representação",
+                "color": "#22C55E"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Um vídeo digital é composto por uma sequência de imagens (quadros) exibidas rapidamente para criar a ilusão de movimento contínuo. Cada quadro é uma matriz de pixels contendo informações de cor e luminância.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Modelos de cor como RGB são utilizados para representar as intensidades de vermelho, verde e azul. Uma imagem de 24 bits, por exemplo, permite representar mais de 16 milhões de cores.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>A taxa de quadros (FPS) influencia diretamente a fluidez: 24 FPS no cinema, 25 FPS no padrão PAL e 30 FPS no padrão NTSC.</p>"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Aquisição: Como o Vídeo se Torna Digital",
+        "excerpt": "Sensores CCD, digitalização e câmeras profissionais.",
+        "tags": [
+            {
+                "label": "Aquisição",
+                "color": "#F97316"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>O processo de aquisição transforma imagens reais em vídeo digital através de sensores e conversores A/D. A maior parte das câmeras utiliza sensores CCD para capturar luz e convertê-la em sinais digitais. </p>"
+            },
+            {
+                "type": "image",
+                "src": "img/ccd-exemplo.png",
+                "alt": "Exemplo de câmera CCD"
+            },
+            {
+                "type": "text",
+                "html": "<p>Existem câmeras de um único CCD, mais simples e usadas em aplicações domésticas, e câmeras profissionais com 3 CCDs que capturam separadamente as componentes R, G e B, garantindo maior definição. </p>"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Compressão de Vídeo Digital",
+        "excerpt": "Por que a compressão é fundamental e como codecs trabalham.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Um único segundo de vídeo sem compressão pode ocupar mais de 30 MB, tornando inviável o armazenamento ou transmissão sem técnicas de compressão. Por isso, codecs são essenciais. </p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Codecs como MPEG-1, MPEG-2, MPEG-4, M-JPEG e DV usam compressão intraquadros (como JPEG) ou interquadros (explorando semelhanças entre quadros consecutivos). </p>"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Aplicações Modernas do Vídeo Digital",
+        "excerpt": "Da multimídia à TV digital, videoconferência e cinema.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>O vídeo digital está presente em multimídia, videoconferência, TV por satélite, DVDs, sistemas HDTV e cinema digital. Cada uma utiliza diferentes padrões e codecs, como MPEG-2 e MPEG-4. </p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Sistemas como HDTV operam com resolução de 1920×1080 e formato widescreen 16:9. Já videoconferências usam alta compressão para transmissão em tempo real. </p>"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Sistemas Analógicos: NTSC, PAL e SECAM",
+        "excerpt": "Os principais padrões de TV analógica e suas características.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Os sistemas analógicos de televisão definem como o sinal de vídeo é estruturado. Entre os principais padrões estão NTSC, PAL e SECAM, além das variações locais como PAL-M e PAL-N. </p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>O NTSC (americano) opera com 30 quadros por segundo, enquanto o PAL (europeu) utiliza 25 quadros. O sistema SECAM, adotado em alguns países da Europa e Oriente Médio, também segue variações próprias de crominância. </p>"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Varredura Entrelaçada",
+        "excerpt": "Como campos e quadros se combinam para formar a imagem na TV analógica.",
+        "tags": [
+            {
+                "label": "Representação",
+                "color": "#22C55E"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>A varredura entrelaçada divide cada quadro em dois campos exibidos alternadamente — campo 1 e campo 2 — reduzindo cintilação sem aumentar a largura de banda. </p>"
+            },
+            {
+                "type": "image",
+                "src": "img/varredura.png",
+                "alt": "Diagrama ilustrando varredura entrelaçada (baseado no PDF)"
+            },
+            {
+                "type": "text",
+                "html": "<p>No padrão americano/brasileiro, a TV exibia 60 campos por segundo (30 quadros), com 525 linhas, das quais cerca de 480 eram visíveis. </p>"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Interfaces de Vídeo e Edição Controlada",
+        "excerpt": "Como funcionavam os sistemas híbridos de edição e controle SMPTE.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Sistemas de edição híbrida combinavam gravadores analógicos e computadores, usando um barramento de controle de vídeo para sincronizar equipamentos. </p>"
+            },
+            {
+                "type": "image",
+                "src": "img/edicao-hibrida.png",
+                "alt": "Diagrama de edição híbrida de vídeo (baseado no PDF)"
+            },
+            {
+                "type": "text",
+                "html": "<p>O código de tempo SMPTE permitia precisão de quadro, com formatos como 24 fps (cinema), 25 fps (Europa) e 29.97 fps (padrão NTSC colorido). </p>"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Modelos de Cor no Vídeo Digital",
+        "excerpt": "Como pixels representam cor por meio de componentes RGB.",
+        "tags": [
+            {
+                "label": "Representação",
+                "color": "#22C55E"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>O vídeo digital utiliza modelos de cores por componente, sendo o RGB o mais comum. Cada pixel é formado por três valores independentes — vermelho, verde e azul. </p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Uma imagem de 24 bits/pixel possui 8 bits por componente, resultando em 256 níveis de intensidade para cada cor, totalizando mais de 16 milhões de combinações possíveis. </p>"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Taxas de Quadros no Vídeo",
+        "excerpt": "Por que diferentes sistemas usam 18, 24, 25 ou 30 FPS.",
+        "tags": [
+            {
+                "label": "Representação",
+                "color": "#22C55E"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>A taxa de quadros define quantas imagens são mostradas por segundo. A ilusão de movimento ocorre a partir de cerca de 15 FPS, mas padrões comuns variam entre 18 e 30 FPS.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Exemplos incluem: 18 FPS (cinema mudo), 24 FPS (cinema sonoro), 25 FPS (PAL) e 30 FPS (NTSC). </p>"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Codecs de Vídeo: MPEG, DV e M-JPEG",
+        "excerpt": "Como funcionam os principais codecs usados na compressão de vídeo.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Codecs realizam a compressão e descompressão do vídeo. No MPEG, são usadas técnicas interquadros que aproveitam a semelhança entre quadros consecutivos. </p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>O M-JPEG usa apenas compressão intraquadros, similar ao JPEG, permitindo edição quadro a quadro. Já o formato DV é amplamente utilizado em câmeras digitais profissionais e semiprofissionais. </p>"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "DVD, Blu-ray, VCD e SVCD",
+        "excerpt": "Os principais formatos de armazenamento de vídeo digital e suas características.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>O DVD utiliza o codec MPEG-2 e resolução de 720x480 (NTSC). Tornou-se um dos formatos mais populares para distribuição doméstica de vídeo. </p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>O Blu-ray suporta codecs como MPEG-2, H.264 e VC-1, com capacidade de 25 GB ou 50 GB e resolução de alta definição. </p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>VCD usa MPEG-1 com 352x240 pixels, enquanto SVCD usa MPEG-2 com 480x480, ambos compatíveis com leitores de DVD. </p>"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Edição Analógica de Vídeo",
+        "excerpt": "Como funcionava a edição em fita e por que havia perda de qualidade.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Na edição analógica de vídeo, o objetivo era criar uma fita mestra a partir da justaposição, intercalação e combinação de vários trechos gravados. Todo o processo era feito em mídia física, como videocassetes.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Cada nova geração de cópia introduzia perdas de qualidade, pois o sinal analógico era regravado sucessivamente. Para controlar pontos exatos de corte, utilizava-se a indexação por código de tempo, permitindo localizar quadros específicos na fita.</p>"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Sistemas de Videodisco: LaserDisc",
+        "excerpt": "O papel do LaserDisc como tecnologia anterior ao DVD.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Os sistemas de videodisco, como o LaserDisc, utilizavam discos de 12 polegadas para gravação analógica de vídeo. Eles permitiam acesso rápido a trechos específicos por meio de indexação controlável.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Apesar de terem sido importantes como tecnologia de videodisco antes da popularização do DVD, esses sistemas acabaram sendo gradualmente substituídos por mídias digitais como o DVD.</p>"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Níveis de Sistemas de Vídeo",
+        "excerpt": "Consumidor, industrial, difusão e HDTV.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Os sistemas de vídeo podem ser classificados em diferentes níveis: consumidor, industrial, difusão e alta definição (HDTV). Cada nível está associado a equipamentos e padrões de qualidade distintos.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>No nível consumidor, encontram-se formatos como VHS e 8mm. No nível industrial, sistemas como Hi8, S-VHS e Betacam são usados em produtoras. Em difusão, emissoras de TV utilizam padrões de broadcast profissionais. A HDTV representa a evolução para alta definição, com maior resolução e formato widescreen.</p>"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Tecnologia Digital de Vídeo e Codecs Instalados",
+        "excerpt": "Como o sistema operacional gerencia codecs de vídeo.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Com a tecnologia digital de vídeo, o sistema operacional passa a gerenciar uma lista de codecs instalados, que são usados por aplicativos para codificar e decodificar fluxos de áudio e vídeo.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Cada codec é especializado em determinado tipo de compressão, podendo priorizar qualidade, taxa de compressão ou velocidade de processamento. A disponibilidade desses codecs define quais formatos de arquivos e fluxos multimídia podem ser reproduzidos e editados no computador.</p>"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Arquitetura Video for Windows e Formato AVI",
+        "excerpt": "Como o Video for Windows organiza áudio e vídeo no formato AVI.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>A arquitetura Video for Windows, da Microsoft, utiliza o formato AVI (Audio-Video Interleaved), no qual áudio e vídeo são armazenados de forma entrelaçada em um único arquivo.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>O AVI do windows dos anos 90 era apropriado para vídeo de baixa resolução e baixa taxa de quadros. Nessa arquitetura, podem ser usados diversos codecs, como RLE, Video 1, Cinepak e Indeo, que definem como os dados de vídeo são comprimidos e descomprimidos.</p>"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Arquitetura QuickTime",
+        "excerpt": "Formato multimídia multiplataforma usado em CD-ROMs e vídeo digital.",
+        "tags": [
+            {
+                "label": "Compressão e Formatos",
+                "color": ""
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>O QuickTime, definido originalmente pela Apple, é uma arquitetura multimídia que também pode ser usada em Windows. Ele suporta diferentes codecs, incluindo JPEG e MPEG-1.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Por ser independente de plataforma, o QuickTime se tornou dominante em muitos títulos distribuídos em CD-ROM. Versões mais recentes passaram a suportar fluxos multimídia contínuos, como streaming de áudio e vídeo.</p>"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Outras Aplicações de Vídeo Digital",
+        "excerpt": "Vídeo sob demanda, WebTV e câmeras digitais domésticas.",
+        "tags": [
+            {
+                "label": "Aplicações e Sistemas",
+                "color": "#A855F7"
+            }
+        ],
+        "content": [
+            {
+                "type": "text",
+                "html": "<p>Além de mídias físicas e transmissão tradicional, o vídeo digital é utilizado em serviços de vídeo sob demanda, nos quais o usuário acessa conteúdos a partir de uma central de fornecimento por linhas de alta capacidade.</p>"
+            },
+            {
+                "type": "text",
+                "html": "<p>Outra aplicação é a WebTV, que permite acessar conteúdo da Web por meio de aparelhos especializados conectados à TV. Câmeras e fitas digitais domésticas também incorporam tecnologia de vídeo digital, facilitando a gravação, edição e compartilhamento de material em casa.</p>"
+            }
+        ]
+    }
+]
