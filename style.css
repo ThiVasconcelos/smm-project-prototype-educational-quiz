@@ -57,13 +57,13 @@ nav {
 }
 @keyframes neonPulse {
     0% {
-        text-shadow: 0 0 8px #00e5ff55;
+        text-shadow: 4px 4px 4px #00e5ff55;
     }
     50% {
-        text-shadow: 0 0 28px #00e5ffcc;
+        text-shadow: 20px 16px 20px #00e5ffcc;
     }
     100% {
-        text-shadow: 0 0 8px #00e5ff55;
+        text-shadow: 4px 4px 4px #00e5ff55;
     }
 }
 
@@ -344,7 +344,7 @@ main {
   }
 }
 
-/* animation pointers 13fps 10x slower and 24fps and 60 fps */
+/* animation pointers 5fps 15fps 60fps */
 .pointers-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
