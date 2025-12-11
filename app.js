@@ -123,8 +123,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const vid = document.createElement("video");
         vid.src = block.src;
         vid.controls = true;
-        vid.style.maxWidth = "100%";
-        vid.style.margin = "12px 0";
+        vid.style.maxWidth = "200px";
+        vid.style.display = "block";
+        vid.style.margin = "12px auto";
         overlayBody.appendChild(vid);
       } else if (block.type === "audio") {
         const audio = document.createElement("audio");

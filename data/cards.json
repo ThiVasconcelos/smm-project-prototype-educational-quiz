@@ -21,6 +21,28 @@
         ]
     },
     {
+        "id": 35,
+        "title": "Mini-Podcast",
+        "excerpt": "Resumo sobre Vídeo Digital para Sistemas Multimídia",
+        "tags": [
+            {
+                "label": "Fundamentos",
+                "color": "#3B82F6"
+            }
+        ],
+        "content": [
+            {
+                "type": "audio",
+                "src": "assets/mini-podcast.mp3",
+                "alt": "Mini-podast com resumo sobre Vídeo Digital para Sistemas Multimídia "
+            },
+            {
+                "type": "text",
+                "html": "<p></p>"
+            }
+        ]
+    },
+    {
         "id": 2,
         "title": "Como o Vídeo Digital é Representado",
         "excerpt": "Pixels, quadros, resolução, cores e taxas de quadros.",
@@ -129,6 +151,11 @@
                 "html": "<p>Os sistemas analógicos de televisão definem como o sinal de vídeo é estruturado. Entre os principais padrões estão NTSC, PAL e SECAM, além das variações locais como PAL-M e PAL-N. </p>"
             },
             {
+                "type": "video",
+                "src": "assets/video_30fps.mp4",
+                "alt": "Vídeo em 30 fps para mostrar o padrão."
+            },
+            {
                 "type": "text",
                 "html": "<p>O NTSC (americano) opera com 30 quadros por segundo, enquanto o PAL (europeu) utiliza 25 quadros. O sistema SECAM, adotado em alguns países da Europa e Oriente Médio, também segue variações próprias de crominância. </p>"
             }
@@ -147,11 +174,11 @@
         "content": [
             {
                 "type": "text",
-                "html": "<p>A varredura entrelaçada divide cada quadro em dois campos exibidos alternadamente — campo 1 e campo 2 — reduzindo cintilação sem aumentar a largura de banda. </p>"
+                "html": "<p>A varredura entrelaçada divide cada quadro em dois campos exibidos alternadamente campo 1 e campo 2reduzindo cintilação sem aumentar a largura de banda. </p>"
             },
             {
                 "type": "image",
-                "src": "img/varredura.png",
+                "src": "assets/varredura.png",
                 "alt": "Diagrama ilustrando varredura entrelaçada"
             },
             {
@@ -194,7 +221,7 @@
         "content": [
             {
                 "type": "text",
-                "html": "<p>O vídeo digital utiliza modelos de cores por componente, sendo o RGB o mais comum. Cada pixel é formado por três valores independentes — vermelho, verde e azul. </p>"
+                "html": "<p>O vídeo digital utiliza modelos de cores por componente, sendo o RGB o mais comum. Cada pixel é formado por três valores independentes vermelho, verde e azul. </p>"
             },
             {
                 "type": "text",
@@ -223,7 +250,11 @@
             },
             {
                 "type": "text",
-                "html": "<p>\n\n\n\nExemplos incluem: 18 FPS (cinema mudo), 24 FPS (cinema sonoro), 25 FPS (PAL) e 30 FPS (NTSC). </p>"
+                "html": "<p>\n\n\n\nExemplos incluem: 18 FPS (cinema mudo), 24 FPS (cinema sonoro), 25 FPS (PAL) e 30 FPS (NTSC). Pode mos nota que a diferença entre 24pfs e 30fps não é muito fáicl de perceber. </p>"
+            },
+            {
+                "type": "video",
+                "src": "assets/video_30vs24fps.mp4"
             }
         ]
     },

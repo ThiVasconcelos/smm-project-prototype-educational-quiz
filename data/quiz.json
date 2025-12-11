@@ -135,7 +135,7 @@
         ],
         "correctIndex": 0,
         "mediaType": "image",
-        "mediaSrc": "img/varredura.png",
+        "mediaSrc": "assets/varredura.png",
         "category": "Representação",
         "categoryColor": "#22C55E"
     },
@@ -162,8 +162,8 @@
             "Reduzir a precisão das cores"
         ],
         "correctIndex": 1,
-        "mediaType": "image",
-        "mediaSrc": "img/ccd-exemplo.png",
+        "mediaType": null,
+        "mediaSrc": "",
         "category": "Aquisição",
         "categoryColor": "#F97316"
     },
