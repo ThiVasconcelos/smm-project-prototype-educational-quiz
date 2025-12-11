@@ -136,6 +136,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const source = document.createElement("source");
         source.src = block.src;
         source.type = "audio/mpeg"; 
+        audio.appendChild(source);
+        const fallbackText = document.createTextNode("Não foi possível carregar este aúdio.")
         overlayBody.appendChild(audio);
       } else if (block.type === "image") {
         const img = document.createElement("img");
