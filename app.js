@@ -133,7 +133,9 @@ document.addEventListener("DOMContentLoaded", () => {
         audio.controls = true;
         audio.style.width = "100%";
         audio.style.margin = "12px 0";
-        audio.setAttribute("type", "audio/mpeg");
+        const source = document.createElement("source");
+        source.src = block.src;
+        source.type = "audio/mpeg"; 
         overlayBody.appendChild(audio);
       } else if (block.type === "image") {
         const img = document.createElement("img");
