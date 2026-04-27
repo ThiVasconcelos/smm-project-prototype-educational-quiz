@@ -92,6 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.appendChild(excerpt);
       card.appendChild(tagsContainer);
 
+      card.style.animationDelay = `${index * 0.05}s`;
       card.addEventListener("click", () => openPost(index));
       postsGrid.appendChild(card);
     });
