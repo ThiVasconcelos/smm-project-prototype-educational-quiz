@@ -510,6 +510,22 @@ h2 {
 }
 
 /* ================================
+   Empty / Loading States
+   ================================ */
+.empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.empty-state-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+  opacity: 0.4;
+}
+
+/* ================================
    Responsive
    ================================ */
 @media (max-width: 640px) {

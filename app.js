@@ -55,13 +55,13 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => {
       console.error("Erro ao carregar Cards", err);
-      postsGrid.innerHTML = "<p>Erro ao carregar Cards. Verifique a fonte de dados</p>";
+      postsGrid.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⚠</div>Erro ao carregar Cards. Verifique a fonte de dados.</div>';
     });
 
   function renderPosts() {
     postsGrid.innerHTML = "";
     if (!posts || posts.length === 0) {
-      postsGrid.innerHTML = "<p>Nenhum card disponível.</p>";
+      postsGrid.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📭</div>Nenhum card disponível.</div>';
       return;
     }
 
