@@ -2,6 +2,8 @@
 
 A lightweight single-page app with study cards and an interactive quiz about Digital Video, built for a Multimedia Systems (SMM) college course presentation.
 
+**[Live Demo →](https://smm-project-prototype-educational-quiz.pages.dev/)**
+
 ---
 
 ## About
