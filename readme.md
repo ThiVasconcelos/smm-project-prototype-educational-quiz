@@ -1,14 +1,23 @@
-# Vanilla Single Page Prototype
+# SMM - Educational Quiz & Study Cards
 
-A small prototype built solely for a college presentation. No technical concerns were prioritized no backend, authentication, architecture, standards, or best practices.
-The goal was simply to show the concept working.
+A lightweight single-page app with study cards and an interactive quiz about Digital Video, built for a Multimedia Systems (SMM) college course presentation.
 
 ---
 
-## How it works
+## About
 
-A simple SPA built with plain **HTML**, **CSS**, and **JavaScript**.
-Everything is manual, with no frameworks — just enough to simulate screens and basic flow.
+- Study cards covering topics like video representation, compression, codecs, and broadcast systems
+- Interactive quiz with 10 randomized questions, category tracking, and performance breakdown
+- No frameworks — plain HTML, CSS, and JavaScript
+
+---
+
+## Tech Stack
+
+- HTML / CSS / JavaScript
+- [canvas-confetti](https://github.com/catdad/canvas-confetti) for quiz celebration effect
+- [Google Fonts (Inter)](https://fonts.google.com/specimen/Inter)
+- Hosted on [Cloudflare Pages](https://pages.cloudflare.com)
 
 ---
 
@@ -18,10 +27,4 @@ Everything is manual, with no frameworks — just enough to simulate screens and
 npx serve
 ```
 
-Open the address shown in the terminal and you're good to go.
-
----
-
-## Hosting
-
-The project is hosted on **Cloudflare Pages** since it’s static and lightweight.
+Open the address shown in the terminal.
