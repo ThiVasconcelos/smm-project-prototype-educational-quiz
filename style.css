@@ -124,10 +124,17 @@ main {
 
 .page {
   display: none;
+  opacity: 0;
 }
 
 .page.active {
   display: block;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 h2 {
