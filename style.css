@@ -400,6 +400,30 @@ h2 {
   cursor: default;
 }
 
+.options button.correct {
+  border: 2px solid #22c55e;
+  box-shadow: 0 4px 14px rgba(34, 197, 94, 0.25);
+  animation: pulse-correct 0.4s ease;
+}
+
+.options button.wrong {
+  border: 2px solid #ef4444;
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.25);
+  animation: shake 0.4s ease;
+}
+
+@keyframes pulse-correct {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
 .quiz-media {
   max-width: 100%;
   margin: 16px 0;

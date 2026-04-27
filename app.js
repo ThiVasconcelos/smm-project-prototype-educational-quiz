@@ -308,12 +308,10 @@ document.addEventListener("DOMContentLoaded", () => {
       .forEach((b, i) => {
         b.disabled = true;
         if (i === q.correctIndex) {
-          b.style.border = "2px solid #22c55e";
-          b.style.boxShadow = "0 5px 18px rgba(7, 212, 34, 0.8)";
+          b.classList.add("correct");
         }
         if (i === index && i !== q.correctIndex) {
-          b.style.border = "2px solid #ef4444";
-          b.style.boxShadow = "0 5px 18px rgba(239, 68, 68, 0.8)";
+          b.classList.add("wrong");
         }
       });
 
