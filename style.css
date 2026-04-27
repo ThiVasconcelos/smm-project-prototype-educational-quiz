@@ -285,17 +285,26 @@ h2 {
 }
 
 .overlay-body {
-  margin-top: 8px;
+  margin-top: 12px;
   font-size: 14px;
   color: var(--text-secondary);
   overflow-y: auto;
   padding-right: 8px;
-  line-height: 1.7;
+  line-height: 1.75;
   flex: 1;
 }
 
 .overlay-body p {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+}
+
+.overlay-body img {
+  border-radius: var(--radius-sm);
+}
+
+.overlay-body video,
+.overlay-body audio {
+  border-radius: var(--radius-sm);
 }
 
 .overlay-nav {
