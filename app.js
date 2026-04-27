@@ -24,6 +24,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  document.getElementById("logoLink").addEventListener("click", (e) => {
+    e.preventDefault();
+    showPage("cards");
+    window.location.hash = "#cards";
+  });
+
   window.addEventListener("load", () => {
     const hash = window.location.hash.replace("#", "");
     if (hash === "quiz") showPage("quiz");

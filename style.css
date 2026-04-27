@@ -74,6 +74,12 @@ nav {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.logo:hover {
+  color: var(--text-primary);
 }
 
 .nav-links {
