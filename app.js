@@ -253,6 +253,14 @@ document.addEventListener("DOMContentLoaded", () => {
     metaDiv.appendChild(categorySpan);
     quizContainer.appendChild(metaDiv);
 
+    const progressBar = document.createElement("div");
+    progressBar.className = "progress-bar";
+    const progressFill = document.createElement("div");
+    progressFill.className = "progress-bar-fill";
+    progressFill.style.width = `${((current + 1) / questions.length) * 100}%`;
+    progressBar.appendChild(progressFill);
+    quizContainer.appendChild(progressBar);
+
     const p = document.createElement("div");
     p.className = "question";
     p.textContent = q.text;
