@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   /* -------------------------
-     navbar navigation
-  --------------------------*/
+     Navbar Navigation
+  ------------------------- */
   const pages = document.querySelectorAll(".page");
   const navLinks = document.querySelectorAll(".nav-links a");
 
@@ -30,10 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
     else showPage("cards");
   });
 
-
   /* -------------------------
-   cards-> posts from cards.json
-  --------------------------*/
+     Cards from cards.json
+  ------------------------- */
   let posts = [];
 
   const postsGrid = document.getElementById("postsGrid");
@@ -135,9 +134,8 @@ document.addEventListener("DOMContentLoaded", () => {
         audio.style.margin = "12px 0";
         const source = document.createElement("source");
         source.src = block.src;
-        source.type = "audio/mpeg"; 
+        source.type = "audio/mpeg";
         audio.appendChild(source);
-        const fallbackText = document.createTextNode("Não foi possível carregar este aúdio.")
         overlayBody.appendChild(audio);
       } else if (block.type === "image") {
         const img = document.createElement("img");
@@ -177,18 +175,18 @@ document.addEventListener("DOMContentLoaded", () => {
   prevPostBtn.addEventListener("click", showPrevPost);
 
   /* -------------------------
-     quiz from quiz.json
-  --------------------------*/
+     Quiz from quiz.json
+  ------------------------- */
   let allQuestions = [];
   let questions = [];
   let current = 0;
   let score = 0;
-  let stats = {}; // { category: { hits, miss, color } }
+  let stats = {};
 
   const quizContainer = document.getElementById("quizContainer");
   const quizStatus = document.getElementById("quizStatus");
   const startBtn = document.getElementById("startBtn");
-  const nextBtn = document.getElementById("nextBtn");
+  const nextBtnQuiz = document.getElementById("nextBtn");
   const restartBtn = document.getElementById("restartBtn");
 
   fetch("data/quiz.json")
@@ -225,17 +223,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     questions.forEach(q => {
       if (!stats[q.category]) {
-        stats[q.category] = {
-          hits: 0,
-          miss: 0,
-          color: q.categoryColor
-        };
+        stats[q.category] = { hits: 0, miss: 0, color: q.categoryColor };
       }
     });
 
     startBtn.style.display = "none";
     restartBtn.style.display = "none";
-    nextBtn.style.display = "none";
+    nextBtnQuiz.style.display = "none";
     quizStatus.textContent = "";
     renderQuestion();
   }
@@ -289,7 +283,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     quizContainer.appendChild(optionsDiv);
-    nextBtn.style.display = "none";
+    nextBtnQuiz.style.display = "none";
   }
 
   function handleAnswer(index) {
@@ -314,10 +308,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
-    nextBtn.style.display = "inline-block";
+    nextBtnQuiz.style.display = "inline-block";
   }
 
-  nextBtn.onclick = () => {
+  nextBtnQuiz.onclick = () => {
     current++;
     if (current < questions.length) {
       renderQuestion();
@@ -325,44 +319,45 @@ document.addEventListener("DOMContentLoaded", () => {
       finishQuiz();
     }
   };
+
   function launchConfetti() {
-  const duration = 4000;
-  const end = Date.now() + duration;
+    const duration = 4000;
+    const end = Date.now() + duration;
 
-  (function frame() {
-    confetti({
-      particleCount: 5,
-      angle: 60,
-      spread: 70,
-      origin: { x: 0 }
-    });
-    confetti({
-      particleCount: 5,
-      angle: 120,
-      spread: 70,
-      origin: { x: 1 }
-    });
+    (function frame() {
+      confetti({
+        particleCount: 5,
+        angle: 60,
+        spread: 70,
+        origin: { x: 0 }
+      });
+      confetti({
+        particleCount: 5,
+        angle: 120,
+        spread: 70,
+        origin: { x: 1 }
+      });
 
-    if (Date.now() < end) {
-      requestAnimationFrame(frame);
-    }
-  })();
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
+      }
+    })();
   }
-  
-  function finishQuiz() {
 
+  function finishQuiz() {
     if (score > 7) {
       launchConfetti();
       quizContainer.innerHTML = `
-      <h3>Resultado Final</h3>
-      <p>Parabéns, você acertou <strong>${score}</strong> de <strong>${questions.length}</strong> questões.</p>
-    `;
-    }else {
+        <h3>Resultado Final</h3>
+        <p>Parabéns, você acertou <strong>${score}</strong> de <strong>${questions.length}</strong> questões.</p>
+      `;
+    } else {
       quizContainer.innerHTML = `
-      <h3>Resultado Final</h3>
-      <p>Você acertou apenas <strong>${score}</strong> de <strong>${questions.length}</strong> questões. Estude mais e melhore na próxima, aqui estão alguns tópicos e seu desempenho.</p>
-    `;
+        <h3>Resultado Final</h3>
+        <p>Você acertou apenas <strong>${score}</strong> de <strong>${questions.length}</strong> questões. Estude mais e melhore na próxima, aqui estão alguns tópicos e seu desempenho.</p>
+      `;
     }
+
     const ranking = Object.entries(stats)
       .map(([category, data]) => ({
         category,
@@ -390,7 +385,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     quizContainer.appendChild(extra);
 
-    nextBtn.style.display = "none";
+    nextBtnQuiz.style.display = "none";
     restartBtn.style.display = "inline-block";
   }
 
